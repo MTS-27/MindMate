@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindMate</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 MindMate</h1>
+
+    <section id="thought-section">
+      <textarea id="thought-input" placeholder="What's on your mind?"></textarea>
+      <button id="analyze-btn">Reflect with AI</button>
+    </section>
+
+    <section id="ai-response" class="hidden">
+      <h2>Your Insight</h2>
+      <div id="ai-summary"></div>
+      <div id="ai-mood"></div>
+      <div id="ai-tasks"></div>
+      
+    </section>
+
+    <section id="task-section">
+      <h2>Your Tasks</h2>
+      <ul id="task-list"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

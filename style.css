@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background: #4c9aff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #ai-summary, #ai-mood, #ai-tasks {
+    margin-top: 1rem;
+  }
+  
+  #task-list {  
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+.loader {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 3px solid #ccc;
+  border-top-color: #4c9aff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-left: 0.5rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.complete-btn,
+.delete-btn {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.complete-btn {
+  color: green;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.suggested-task {
+  background: #bd05ca;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
