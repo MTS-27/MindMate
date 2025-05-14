@@ -35,13 +35,6 @@ This app lets you write out your thoughts, and the AI responds with emotional in
 
 ---
 
-### 📸 Screenshot
-
-![MindMate Screenshot](screenshot.png)  
-<sub>Add your own screenshot of the app here</sub>
-
----
-
 ### 🚀 How to Run Locally
 
 1. Clone the repo:
